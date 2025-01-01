@@ -1,0 +1,84 @@
+- creativity_list:
+    - name: Python
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772feea32281.png
+      color: "#3776AB"
+    
+    - name: C++
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/677302d650860.png
+      color: "#00599C"
+
+    - name: C
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/677305555d6b3.png
+      color: "#00599C"
+    
+    - name: JavaScript
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fee91bd82.png
+      color: "#007396"
+    
+    - name: HTML
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fee8be0f0.png
+      color: "#007396"
+    
+    - name: CSS
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fee8565a0.png
+      color: "#007396"
+
+    - name: Bash
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fe138d792.png
+      color: "#FCC624"
+
+    - name: Docker
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/677303349e722.png
+      color: "#FCC624" 
+
+    - name: LaTeX
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fee9a6a1f.png
+      color: "#2496ED" 
+
+
+    - name: MATLAB
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6773005c5dd63.png
+      color: "#3776AB" 
+
+    - name: Mathematica
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/67730637f232a.jpeg
+      color: "#3776AB" 
+      
+    - name: Julia
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fee962e53.png
+      color: "#2496ED" 
+
+
+    - name: LAMMPS
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fe72305d7.png
+      color: "#2496ED" 
+
+    - name: CP2K
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fe71a1d96.png
+      color: "#3776AB" 
+
+    - name: ORCA
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fee9dea86.png
+      color: "#3776AB" 
+
+    - name: CASTEP
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fe210d21a.png
+      color: "#3776AB" 
+
+    
+    - name: COMSOL
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fee7f19b7.png
+      color: "#3776AB" 
+
+    
+    - name: OpenCV
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fe6be15ae.png
+      color: "#3776AB" 
+
+    - name: Pytorch
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772ff9b1b0b1.png
+      color: "#3776AB" 
+    
+    - name: ROS
+      icon: https://lskypro.bin-lian.me/i/2024/12/31/6772fe710eb34.png
+      color: "#3776AB"

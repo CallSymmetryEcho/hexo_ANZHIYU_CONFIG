@@ -1,0 +1,214 @@
+INFO  Validating config
+INFO  
+  ===================================================================
+                                                                     
+   █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+  ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+  ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+  ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+  ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+  ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+
+                            1.6.14
+  ===================================================================
+INFO  Start processing
+INFO  Files loaded in 1.85 s
+INFO  0 files generated in 40 ms
+ERROR 
+TypeError: /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/themes/anzhiyu/layout/includes/head/config_site.pug:32
+    30|     isHighlightShrink: !{isHighlightShrink},
+    31|     isToc: !{showToc},
+  > 32|     postUpdate: '!{full_date(page.updated)}',
+    33|     postMainColor: '!{page.main_color}',
+    34|   }
+    35| 
+
+lang.toLowerCase is not a function
+    at _toMomentLocale (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:84:17)
+    at getMoment (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:17:12)
+    at Object.dateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:36:20)
+    at Object.fullDateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:51:20)
+    at eval (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:261:46)
+    at template (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:12832:7)
+    at _View._compiled (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:120:67)
+    at _View.render (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:37:21)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/index.js:60:29
+    at tryCatcher (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/util.js:16:23)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/router.js:43:9)
+    at Readable.read (node:internal/streams/readable:496:12)
+    at resume_ (node:internal/streams/readable:999:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+ERROR 
+TypeError: /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/themes/anzhiyu/layout/includes/head/config_site.pug:32
+    30|     isHighlightShrink: !{isHighlightShrink},
+    31|     isToc: !{showToc},
+  > 32|     postUpdate: '!{full_date(page.updated)}',
+    33|     postMainColor: '!{page.main_color}',
+    34|   }
+    35| 
+
+lang.toLowerCase is not a function
+    at _toMomentLocale (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:84:17)
+    at getMoment (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:17:12)
+    at Object.dateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:36:20)
+    at Object.fullDateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:51:20)
+    at eval (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:261:46)
+    at template (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:12832:7)
+    at _View._compiled (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:120:67)
+    at _View.render (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:37:21)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/index.js:60:29
+    at tryCatcher (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/util.js:16:23)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/router.js:43:9)
+    at Readable.read (node:internal/streams/readable:496:12)
+    at resume_ (node:internal/streams/readable:999:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+ERROR 
+TypeError: /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/themes/anzhiyu/layout/includes/head/config_site.pug:32
+    30|     isHighlightShrink: !{isHighlightShrink},
+    31|     isToc: !{showToc},
+  > 32|     postUpdate: '!{full_date(page.updated)}',
+    33|     postMainColor: '!{page.main_color}',
+    34|   }
+    35| 
+
+lang.toLowerCase is not a function
+    at _toMomentLocale (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:84:17)
+    at getMoment (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:17:12)
+    at Object.dateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:36:20)
+    at Object.fullDateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:51:20)
+    at eval (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:261:46)
+    at template (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:5697:7)
+    at _View._compiled (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:120:67)
+    at _View.render (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:37:21)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/index.js:60:29
+    at tryCatcher (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/util.js:16:23)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/router.js:43:9)
+    at Readable.read (node:internal/streams/readable:496:12)
+    at resume_ (node:internal/streams/readable:999:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+ERROR 
+TypeError: /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/themes/anzhiyu/layout/includes/head/config_site.pug:32
+    30|     isHighlightShrink: !{isHighlightShrink},
+    31|     isToc: !{showToc},
+  > 32|     postUpdate: '!{full_date(page.updated)}',
+    33|     postMainColor: '!{page.main_color}',
+    34|   }
+    35| 
+
+lang.toLowerCase is not a function
+    at _toMomentLocale (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:84:17)
+    at getMoment (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:17:12)
+    at Object.dateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:36:20)
+    at Object.fullDateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:51:20)
+    at eval (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:261:46)
+    at template (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:5697:7)
+    at _View._compiled (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:120:67)
+    at _View.render (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:37:21)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/index.js:60:29
+    at tryCatcher (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/util.js:16:23)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/router.js:43:9)
+    at Readable.read (node:internal/streams/readable:496:12)
+    at resume_ (node:internal/streams/readable:999:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+ERROR 
+TypeError: /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/themes/anzhiyu/layout/includes/head/config_site.pug:32
+    30|     isHighlightShrink: !{isHighlightShrink},
+    31|     isToc: !{showToc},
+  > 32|     postUpdate: '!{full_date(page.updated)}',
+    33|     postMainColor: '!{page.main_color}',
+    34|   }
+    35| 
+
+lang.toLowerCase is not a function
+    at _toMomentLocale (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:84:17)
+    at getMoment (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:17:12)
+    at Object.dateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:36:20)
+    at Object.fullDateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:51:20)
+    at eval (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:261:46)
+    at template (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:4801:7)
+    at _View._compiled (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:120:67)
+    at _View.render (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:37:21)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/index.js:60:29
+    at tryCatcher (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/util.js:16:23)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/router.js:43:9)
+    at Readable.read (node:internal/streams/readable:496:12)
+    at resume_ (node:internal/streams/readable:999:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+ERROR 
+TypeError: /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/themes/anzhiyu/layout/includes/head.pug:2
+    1| - var pageTitle
+  > 2| - is_archive() ? page.title = findArchivesTitle(page, theme.menu, date) : ''
+    3| - if (is_tag()) pageTitle = _p('page.tag') + ': ' + page.tag
+    4| - else if (is_category()) pageTitle = _p('page.category') + ': ' + page.category
+    5| - else if (is_current('/404.html', [strict])) pageTitle = _p('error404')
+
+lang.toLowerCase is not a function
+    at _toMomentLocale (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:84:17)
+    at getMoment (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:17:12)
+    at Object.dateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:36:20)
+    at Object.<anonymous> (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/themes/anzhiyu/scripts/helpers/page.js:125:12)
+    at eval (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:24:29)
+    at template (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:4801:7)
+    at _View._compiled (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:120:67)
+    at _View.render (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:37:21)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/index.js:60:29
+    at tryCatcher (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/util.js:16:23)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/router.js:43:9)
+    at Readable.read (node:internal/streams/readable:496:12)
+    at resume_ (node:internal/streams/readable:999:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+ERROR 
+TypeError: /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/themes/anzhiyu/layout/includes/head.pug:2
+    1| - var pageTitle
+  > 2| - is_archive() ? page.title = findArchivesTitle(page, theme.menu, date) : ''
+    3| - if (is_tag()) pageTitle = _p('page.tag') + ': ' + page.tag
+    4| - else if (is_category()) pageTitle = _p('page.category') + ': ' + page.category
+    5| - else if (is_current('/404.html', [strict])) pageTitle = _p('error404')
+
+lang.toLowerCase is not a function
+    at _toMomentLocale (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:84:17)
+    at getMoment (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:17:12)
+    at Object.dateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:36:20)
+    at Object.<anonymous> (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/themes/anzhiyu/scripts/helpers/page.js:125:12)
+    at eval (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:24:29)
+    at template (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:4801:7)
+    at _View._compiled (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:120:67)
+    at _View.render (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:37:21)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/index.js:60:29
+    at tryCatcher (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/util.js:16:23)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/router.js:43:9)
+    at Readable.read (node:internal/streams/readable:496:12)
+    at resume_ (node:internal/streams/readable:999:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+ERROR 
+TypeError: /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/themes/anzhiyu/layout/includes/head/config_site.pug:32
+    30|     isHighlightShrink: !{isHighlightShrink},
+    31|     isToc: !{showToc},
+  > 32|     postUpdate: '!{full_date(page.updated)}',
+    33|     postMainColor: '!{page.main_color}',
+    34|   }
+    35| 
+
+lang.toLowerCase is not a function
+    at _toMomentLocale (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:84:17)
+    at getMoment (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:17:12)
+    at Object.dateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:36:20)
+    at Object.fullDateHelper (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/plugins/helper/date.js:51:20)
+    at eval (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:261:46)
+    at template (eval at wrap (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:5396:7)
+    at _View._compiled (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:120:67)
+    at _View.render (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/theme/view.js:37:21)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/index.js:60:29
+    at tryCatcher (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/util.js:16:23)
+    at /Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/Users/lianbin/workdir/_codes_/New_Project/website/hexo_ANZHIYU_CONFIG/node_modules/hexo/dist/hexo/router.js:43:9)
+    at Readable.read (node:internal/streams/readable:496:12)
+    at resume_ (node:internal/streams/readable:999:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
